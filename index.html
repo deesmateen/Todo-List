@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>List</title>
+  <link rel="stylesheet" type="text/css" href="app/Styles/styles.css"/>
+</head>
+<body>
+
+  <div class="container">
+    <div class="header" >
+      <h1>Todo List</h1>
+    </div>
+    <div class="new-item-header">
+      <button href="#" class="pull-right pencil" id="newListItem" style="">New</button>
+    </div>
+    <div class="todo-list-container">
+      <form id="newTaskForm">
+        <label>New Item</label>
+        <input id="newItemInput" placeholder="New task">
+        <button id="saveNewItem">Save</button>
+        <button id="cancel">Cancel</button>
+      </form>
+    </div>
+
+    <div class="todo-list-boxes">
+      <div id="newList">
+        New List
+        <ul class="list-group"></ul>
+      </div>
+
+      <div class="panel">
+        In Progress
+        <ul class="list-group" id="currentList"></ul>
+      </div>
+
+      <div class="panel">
+        Archived
+        <ul class="list-group" id="archivedList"></ul>
+      </div>
+    </div>
+  </div>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="app/scripts/app.js"></script>
+</body>
+</html>

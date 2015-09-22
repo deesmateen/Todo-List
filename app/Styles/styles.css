@@ -1,0 +1,49 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  height: 100px;
+  width: 100%;
+  background-color: #00579e;
+}
+
+h1 {
+  text-align: center;
+  padding: 30px;
+}
+
+.new-item-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.todo-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+.todo-list-boxes {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+#newList {
+  height: 100px;
+}
+
+.panel {
+}
